@@ -87,11 +87,12 @@ main {
 .content2 .btn {
     background-color: var(--btn-color);
     color: white;
+    display: block;
+    text-align: center;
     padding: 20px;
     margin: 0 40px;
-    border: none;
     border-radius: 8px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700;
     box-shadow: 10px 10px 10px darkcyan;
 }
@@ -112,5 +113,6 @@ main {
 
 .content3 ul li {
     color: var(--bg-color);
+    font-size: 18px;
     line-height: 28px;
 }
