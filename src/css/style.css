@@ -52,14 +52,15 @@ main {
 .content2 {
     grid-area: content2;
     background-color: var(--title-color);
-    padding: 40px 50px;
     border-radius: 0 0 0 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 .content2 h3 {
     color: var(--bg-color);
     font-size: 24px;
-    margin-bottom: 20px;
+    margin: 40px 0 15px 40px;
 }
 
 .content2 .price {
@@ -68,8 +69,8 @@ main {
     font-weight: 700;
     display: flex;
     align-items: center;
-    gap: 15px;
-    margin-bottom: 15px;
+    gap: 18px; 
+    margin: 0 0 15px 40px;
 }
 
 .content2 .price span {
@@ -79,14 +80,16 @@ main {
 
 .content2 p {
     color: var(--bg-color);
-    font-size: 21px;
-    margin-bottom: 50px;
+    font-size: 24px;
+    margin: 0 0 30px 40px;
 }
 
 .content2 .btn {
     background-color: var(--btn-color);
     color: white;
-    padding: 15px 120px;
+    text-align: center;
+    padding: 20px;
+    margin: 0 40px;
     border-radius: 8px;
     font-size: 20px;
     font-weight: 700;
