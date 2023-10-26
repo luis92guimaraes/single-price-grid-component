@@ -80,16 +80,16 @@ main {
 
 .content2 p {
     color: var(--bg-color);
-    font-size: 24px;
+    font-size: 22px;
     margin: 0 0 30px 40px;
 }
 
 .content2 .btn {
     background-color: var(--btn-color);
     color: white;
-    text-align: center;
     padding: 20px;
     margin: 0 40px;
+    border: none;
     border-radius: 8px;
     font-size: 20px;
     font-weight: 700;
